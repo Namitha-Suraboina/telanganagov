@@ -1,0 +1,16 @@
+mysql>use telanganagov;
+Database changed
+
+mysql> select *from telangangov;
+ERROR 1146 (42S02): Table 'telanganagov.telangangov' doesn't exist
+mysql> select *from telanganagov;
++--------------+----------+----------+----------------+
+| surveynumber | district | mandal   | village        |
++--------------+----------+----------+----------------+
+|          115 | Adilabad | Boath    | Babera         |
+|         1284 | Adilabad | Chennur  | Chennur        |
+|           75 | Adilabad | Dahegaon | Chandrapalli   |
+|          290 | Adilabad | Dehegaon | Chedwai        |
+|          165 | Adilabad | Dahegaon | Chinnaraspalli |
++--------------+----------+----------+----------------+
+5 rows in set (0.01 sec)
